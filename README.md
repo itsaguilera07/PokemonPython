@@ -28,24 +28,3 @@ Este es un sencillo juego de consola en Python donde los jugadores pueden explor
 6. **Objetivo del juego**:
    - El objetivo es derrotar a todos los entrenadores moviéndote estratégicamente por el mapa sin chocar con los obstáculos.
 
-## Estructura del mapa
-
-El mapa es definido por una matriz de caracteres que se utiliza para crear una representación visual. Los entrenadores se colocan en posiciones aleatorias. Aquí hay un ejemplo del mapa:
-
-```text
-TTTTTTTTTTTTTTT
-T     *       T
-T  TTTTTT     T
-T     ~~~     T
-T             T
-T  T          T
-T     *       T
-T  TTTTTTTT   T
-T             T
-T             T
-T  TTTTTTTTTT T
-T             T
-T             T
-T  TTTTTTTT   T
-T             T
-TTTTTTTTTTTTTTT
