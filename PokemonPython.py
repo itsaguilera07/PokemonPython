@@ -68,6 +68,14 @@ Gengar_vida = Gengar_inicial_vida
 # Tamaño de la barra de vida para visualización
 Tam_barra_vida = 20
 
+os.system("cls")
+print(  "=" * 70)
+Nombre_entrenador = input("Ingrese el nombre del entrenador: ")
+print("=" * 70)
+print("¡Bienvenido, Entrenador " + Nombre_entrenador + "! ¡Prepárate para tu aventura!")
+print("=" * 70)
+time.sleep(4)
+
 # Bucle para crear objetos (entrenadores) en el mapa
 while len(MAP_OBJECTS) < NUM_OBJECTS:
     # Genera posiciones aleatorias dentro de los límites del mapa
@@ -117,7 +125,8 @@ while True:
     print("+" + "-" * MAP_HEIGH * 3 + "+")
     print("Entrenadores derrotados: " + str(COACH_DEFEATED))
     barra_de_vida_Arceus = int(Arceus_vida * Tam_barra_vida / Arceus_inicial_vida)
-    print("Arceus: [{}{}][{}/{}]".format("-" * barra_de_vida_Arceus, " " * (Tam_barra_vida - barra_de_vida_Arceus), Arceus_vida, Arceus_inicial_vida))
+    print("Entenador: " + Nombre_entrenador +  " ,Arceus: [{}{}][{}/{}]".format("-" * barra_de_vida_Arceus, " " * (Tam_barra_vida - barra_de_vida_Arceus), Arceus_vida, Arceus_inicial_vida))
+    print("El entrenador se puede mover con las teclas [W] [A] [S] [D] para moverse en diferentes direcciones [Q] Para salir del juego")
     print("\n")
 
     # Movimiento del jugador basado en la entrada del teclado
@@ -209,7 +218,7 @@ while True:
                     while Arceus_ataque not in ["A", "B", "C", "D"]:
                         Arceus_ataque = input("¿Qué ataque debe hacer Arceus? ").upper()
                         if Arceus_ataque == "A":
-                            print("El Pokémon atacó con: Corte Fuego - (PS - 80)\n")
+                            print("El Pokémon atacó con: Corte Fuego - (PS - 40)\n")
                             Greninja_vida -= 40
                             time.sleep(3)
                         elif Arceus_ataque == "B":
@@ -331,7 +340,7 @@ while True:
                     while Arceus_ataque not in ["A", "B", "C", "D"]:
                         Arceus_ataque = input("¿Qué ataque debe hacer Arceus? ").upper()
                         if Arceus_ataque == "A":
-                            print("El Pokémon atacó con: Corte Fuego - (PS - 80)\n")
+                            print("El Pokémon atacó con: Corte Fuego - (PS - 40)\n")
                             Charizard_vida -= 40
                             time.sleep(3)
                         elif Arceus_ataque == "B":
@@ -451,7 +460,7 @@ while True:
                     while Arceus_ataque not in ["A", "B", "C", "D"]:
                         Arceus_ataque = input("¿Qué ataque debe hacer Arceus? ").upper()
                         if Arceus_ataque == "A":
-                            print("El Pokémon atacó con: Corte Fuego - (PS - 80)\n")
+                            print("El Pokémon atacó con: Corte Fuego - (PS - 40)\n")
                             Torterra_vida -= 40
                             time.sleep(3)
                         elif Arceus_ataque == "B":
@@ -572,7 +581,7 @@ while True:
                     while Arceus_ataque not in ["A", "B", "C", "D"]:
                         Arceus_ataque = input("¿Qué ataque debe hacer Arceus? ").upper()
                         if Arceus_ataque == "A":
-                            print("El Pokémon atacó con: Corte Fuego - (PS - 80)\n")
+                            print("El Pokémon atacó con: Corte Fuego - (PS - 40)\n")
                             Venusaur_vida -= 40
                             time.sleep(3)
                         elif Arceus_ataque == "B":
@@ -693,7 +702,7 @@ while True:
                     while Arceus_ataque not in ["A", "B", "C", "D"]:
                         Arceus_ataque = input("¿Qué ataque debe hacer Arceus? ").upper()
                         if Arceus_ataque == "A":
-                            print("El Pokémon atacó con: Corte Fuego - (PS - 80)\n")
+                            print("El Pokémon atacó con: Corte Fuego - (PS - 40)\n")
                             Gengar_vida -= 40
                             time.sleep(3)
                         elif Arceus_ataque == "B":
