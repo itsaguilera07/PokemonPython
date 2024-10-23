@@ -1,7 +1,5 @@
 import os
 import time
-from fileinput import close
-
 import readchar
 import random
 
