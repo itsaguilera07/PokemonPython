@@ -1,4 +1,4 @@
-# Juego de Entrenadores - Python Console Game
+# Juego de Pokemon - Python Console Game
 
 Este es un sencillo juego de consola en Python donde los jugadores pueden explorar un mapa, esquivar obstáculos y derrotar entrenadores representados como símbolos `$`. Además, los jugadores pueden enfrentarse en combates de Pokémon, utilizando estrategias para vencer a los oponentes.
 
